@@ -1,6 +1,7 @@
 import "./styles.css"
 import QR from '../images/image-qr-code.png'
 
+document.documentElement.lang = navigator.language;
 document.title = "QR CODE Frontend Mentor"
 
 const qrCode = new Image();
