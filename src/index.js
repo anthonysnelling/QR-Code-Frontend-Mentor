@@ -5,7 +5,7 @@ document.title = "QR CODE Frontend Mentor"
 
 const qrCode = new Image();
 qrCode.src =  QR;
-qrCode.setAttribute("alt","QR Code for fronte end mentor");
+qrCode.alt = "QR Code for Front-end Mentor";
 qrCode.classList += 'qrCode';
 
 let intro = document.createElement("h1");
